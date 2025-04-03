@@ -28,6 +28,7 @@ header {
     background-size: cover;
     color: white; 
     text-align: center;
+    height: 80vh;
 }
 header .opacity {
     position: absolute; 
