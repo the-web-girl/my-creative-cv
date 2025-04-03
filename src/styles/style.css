@@ -70,15 +70,15 @@ header .opacity-container #menu .links li a {
     text-decoration: none;
     text-transform: uppercase;
 }
-header .opacity-container div .image-sm {
+header .opacity-container .content-img {
+    margin: 3.5rem auto;
+}
+header .opacity-container .content-img .image-sm {
     height: auto;
     width: 10em;
 }
-header .opacity-container  div .rond {
+header .opacity-container  .content-img .rond {
     border-radius: 50%;
-}
-header .opacity-container h1 {
-    background-color: transparent;
 }
 header .opacity-container p {
     background-color: transparent;
