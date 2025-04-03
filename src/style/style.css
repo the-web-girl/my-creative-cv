@@ -1,0 +1,338 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    word-break: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    /* background-color: lightgrey; */
+}
+
+.text-green
+{
+    color: #378C3F;
+}
+
+/* Header */
+header {
+    position: relative;
+    margin-bottom: 5em;
+    background: url('../img/01-Background.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white; 
+    text-align: center;
+}
+header .opacity {
+    position: absolute; 
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7; 
+}
+header .opacity-container {
+    position: relative; 
+}
+header .opacity-container #menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+    margin-bottom: 2em;
+}
+header .opacity-container #menu .logo {
+    display: flex;
+}
+header .opacity-container #menu .logo li {
+    margin: auto 1em;
+    list-style-type: none;
+}
+header .opacity-container #menu .logo li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header .opacity-container #menu .links {
+    display: flex;
+}
+header .opacity-container #menu .links li {
+    margin: auto 1em;
+    list-style-type: none;
+}
+header .opacity-container #menu .links li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header .opacity-container div .image-sm {
+    height: auto;
+    width: 10em;
+}
+header .opacity-container  div .rond {
+    border-radius: 50%;
+}
+header .opacity-container h1 {
+    background-color: transparent;
+}
+header .opacity-container p {
+    background-color: transparent;
+}
+header .opacity-container .btn-group {
+    padding: 1em;
+}
+header .opacity-container .btn-group .btn {
+    padding: 0.5em 3em;
+    border-radius: 0.2em;
+    text-decoration: none;
+}
+header .opacity-container .btn-group .btn-green {
+    background-color: #378C3F;
+    color: white;
+}
+header .opacity-container #social {
+    background-color: transparent;
+}
+header .opacity-container #social ul {
+    position: relative;
+    top: 2em;
+    display: flex;
+    justify-content: center;
+}
+header .opacity-container #social ul li {
+    margin: auto 0.5em;
+    padding: 1em 0.9em;
+    /* background-color: grey; */
+    border-radius: 50%;
+    list-style-type: none;
+    
+    background-color: #378C3F;
+}
+header .opacity-container #social ul li a {
+    color: white;
+}
+header .opacity-container #social ul li a i {
+    font-size: 1.5em;
+}
+
+/* Main */
+main h2 {
+    text-align: center;
+}
+/* About */
+main #about {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 1px 20px lightgray;
+    margin: 1em 7.5em 7.5em 7.5em;
+    padding: 1em;
+}
+main #about article {
+    width: 50%;
+}
+main #about article ol {
+    list-style: none;
+    padding: 0;
+}
+main #about article ol li {
+    display: flex;
+}
+main #about article ol li span {
+    font-weight: bold;
+    text-align: center;
+    
+    margin: 0 5px;
+}
+
+/* Skills */
+main #skills {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 1px 20px lightgray;
+    margin: 1em 7.5em 7.5em 7.5em;
+    padding: 1em;
+}
+main #skills article {
+    width: 80%;
+    margin: 0 1em 1em 1em;
+}
+main #skills article p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.8em;
+    color: #378C3F;
+}
+main #skills article .progress-bar {
+    height: 6px;
+    padding: 0;
+    background-color: lightgray;
+    border-radius: 0.1em;
+}
+main #skills article .progress-bar div {
+    height: inherit;
+    background-color: #378C3F;
+    border-top-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+}
+
+/* Portfolio */
+main #portfolio {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em 7.5em 7.5em 7.5em;
+    padding: 1em;
+    background-color: white;
+}
+main #portfolio div {
+    display: flex;
+    flex-direction: column;
+}
+main #portfolio div figure img {
+    width: 100%;
+    margin: 1em auto;
+    box-shadow: 0 0 30px lightgrey;
+}
+
+/* Experience */
+main #experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+    margin: 1em 7.5em 7.5em 7.5em;
+    padding: 1em;
+    background-color: white;
+}  
+main #experience article {
+    box-shadow: 1px 1px 20px lightgray;
+    display: flex;
+    margin: 1em auto;
+    padding: 0;
+    border-radius: 0.3em;
+}
+main #experience article .bg-color {
+    background-color: #378C3F;
+    width: 50%;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+}
+main #experience article div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+/* Formation */
+main #formation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+    margin: 1em 7.5em 7.5em 7.5em;
+    padding: 1em;
+    background-color: white;
+}
+main #formation article {
+    box-shadow: 1px 1px 20px lightgray;
+    display: flex;
+    margin: 1em auto;
+    padding: 0;
+    border-radius: 0.3em;
+}
+main #formation article .bg-color{
+    background-color: #378C3F;
+    width: 50%;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+}
+main #formation article div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+/* Contact */
+main #contact {
+    padding: 0;
+    margin: 0;
+    margin: 1em 7.5em 7.5em 7.5em;
+    padding: 1em;
+    background-color: white;
+}
+main #contact iframe {
+    height: 100vh;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: transparent;
+}
+footer p {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 960px) {
+    header .opacity-container #menu .logo {
+        justify-content: center;
+    }
+    header .opacity-container div  .image-sm {
+        width: 8.5em;
+    }
+    header .opacity-container .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
+    header .opacity-container .btn-group .btn {
+        margin: 5px auto;
+    }
+    header .opacity-container #menu {
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: 0.2em;
+    }
+    header .opacity-container #menu .links {
+        flex-direction: column;
+    }
+    header .opacity-container #menu .links li {
+        margin: 0.25em auto;
+    }
+    main #about,
+    main #skills, 
+    main #portfolio,
+    main #contact,
+    main #experience,
+    main #formation {
+        margin: 0;
+        padding: 1em;
+        margin: 1em auto;
+        background-color: white;
+        
+        flex-direction: column;
+        text-align: center;
+    }
+    main #about article {
+        width: auto;
+    }
+    main #experience article, 
+    main #formation article {
+        flex-direction: row;
+    }
+    main #experience article .bg-color, 
+    main #formation article .bg-color {
+        min-width: 100px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0.3em;
+    }
+}

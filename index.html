@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mon premier site, mon cv créatif. Réaliser en HTML et CSS.">
+    <title>mon-cv-creatif</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <!-- Style-->
+    <link rel="stylesheet" href="./src/style/header.css">
+    <link rel="stylesheet" href="./src/style/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Opacity du header -->
+        <div class="opacity"></div>
+
+        <!-- Elements à superposer -->
+        <div class="opacity-container">
+            <!-- Menu -->
+            <nav id="menu">
+                <!-- Logo -->
+                <ul class="logo">
+                    <li>
+                        <a href="#">creative CV</a>
+                    </li>
+                </ul>
+                <!-- Liens -->
+                <ul class="links">
+                    <li>
+                        <a href="#about">A propos</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#experience">Experiences</a>
+                    </li>
+                    <li>
+                        <a href="#formation">Formations</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Image -->
+            <div>
+                <img class="image-sm rond" src="./src/img/01-Avatar.jpg">
+            </div>
+
+            <!-- Texte -->
+            <h1>Jane Doe</h1>
+            <p>Développeuse web</p>
+
+            <!-- Boutons -->
+            <div class="btn-group">
+                <a class="btn btn-green" href="#contact">Hire Me</a>
+                <a class="btn btn-green" href="#">Download CV</a>    
+            </div>
+
+            <!-- Liens Socials -->
+            <nav id="social">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-fw fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-fw fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-fw fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Section ABOUT -->
+        <section id="about">
+            <article>
+                <h2>A propos</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nihil cupiditate sapiente architecto ipsam, quos ea harum accusamus debitis consectetur, 
+                    obcaecati consequuntur sint dolor velit quas, aliquam rerum accusantium asperiores a.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nihil cupiditate sapiente architecto ipsam, quos ea harum accusamus debitis consectetur. 
+                    <a class="text-green" href="#">En savoir +</a>
+                </p>
+            </article>
+
+            <article>
+                <h2>Informations</h2>
+                <ol>
+                    <li>
+                        <span>Age :</span> 35
+                    </li>
+                    <li>
+                        <span>Email :</span> mail@mail.com
+                    </li>
+                    <li>
+                        <span>Phone :</span> +33 6 123 456 7
+                    </li>
+                    <li>
+                        <span>Adress :</span> 75000 Paris
+                    </li>
+                    <li>
+                        <span>Language :</span> Français +++ / Anglais +
+                    </li>
+
+                </ol>
+            </article>
+        </section>
+
+        <!-- Section SKILLS -->
+        <h2>Mes Skills</h2>
+        <section id="skills">
+            <article>
+                <p>
+                    <span>HTML</span>
+                    <span>80%</span>
+                </p>                
+                <div class="progress-bar">
+                    <div style="width: 80%"></div>
+                </div>
+                <p>
+                    <span>JAVASCRIPT</span>
+                    <span>60%</span>
+                </p>
+                <div class="progress-bar">
+                    <div style="width: 60%"></div>
+                </div>
+                <p>
+                    <span>BOOTSTRAP</span>
+                    <span>75%</span>
+                </p>
+                <div class="progress-bar">
+                    <div style="width: 75%"></div>
+                </div>
+            </article>
+
+            <article>
+                <p>
+                    <span>CSS</span>
+                    <span>75%</span>
+                </p>
+                <div class="progress-bar">
+                    <div style="width: 75%"></div>
+                </div>
+                <p>
+                    <span>SASS</span>
+                    <span>60%</span>
+                </p>
+                <div class="progress-bar">
+                    <div style="width: 60%"></div>
+                </div>
+                <p>
+                    <span>PHOTOSHOP</span>
+                    <span>70%</span>
+                </p>
+                <div class="progress-bar">
+                    <div style="width: 70%"></div>
+                </div>    
+            </article>
+        </section>
+
+        <!-- Section PORTFOLIO -->
+        <h2>Mon Portfolio</h2>
+        <section id="portfolio">
+            <div>
+                <figure>
+                    <img src="./src/img/01-Avatar.jpg" alt="projet 1">
+                </figure>
+                <figure>
+                    <img src="./src/img/01-Avatar.jpg" alt="projet 2">
+                </figure>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="./src/img/01-Avatar.jpg" alt="projet 3">
+                </figure>
+                <figure>
+                    <img src="./src/img/01-Avatar.jpg" alt="projet 4">
+                </figure>
+            </div>
+        </section>
+
+        <!-- Section EXPERIENCE -->
+        <h2>Mes Expériences</h2>
+        <section id="experience">
+           
+            <article>
+                <div class="bg-color">
+                    <h3>WebForce3</h3>
+                    <p>Dec 2019 - Avr 2020</p>
+                </div>
+                <div>
+                    <h3>Développeur Web Stagiaire</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odio nemo praesentium, 
+                        doloribus rem, deserunt, ducimus voluptates qui ipsum ipsa veniam doloremque placeat 
+                        porro laudantium ipsam repellendus facilis labore aliquid?
+                    </p>
+                </div>
+            </article>
+            
+            <article>
+                <div class="bg-color">
+                    <h3>Burger King</h3>
+                    <p>Nov 2018 - Août 2019</p>
+                </div>
+                <div>
+                    <h3>Equipier Polyvalent</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odio nemo praesentium, 
+                        doloribus rem, deserunt, ducimus voluptates qui ipsum ipsa veniam doloremque placeat porro 
+                        laudantium ipsam repellendus facilis labore aliquid?
+                    </p>
+                </div>
+            </article>
+            
+            <article>
+                <div class="bg-color">
+                    <h3>Association Bulle Rose</h3>
+                    <p>Juil 2011 - Actuellement</p>
+                </div>
+                <div>
+                    <h3>Bénévole</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odio nemo praesentium, 
+                        doloribus rem, deserunt, ducimus voluptates qui ipsum ipsa veniam doloremque placeat porro 
+                        laudantium ipsam repellendus facilis labore aliquid?
+                    </p>
+                </div>
+            </article>
+        </section>
+        
+        <!-- Section FORMATION -->
+        <h2>Mes Formations</h2>
+        <section id="formation">
+            <article>
+                <div class="bg-color">
+                    <h3>WEBFORCE 3</h3>
+                    <p>Dec 2019 - Avr 2020</p>
+                </div>
+                <div>
+                    <h3>DEV WEB/WEB MOBILE</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odio nemo praesentium, 
+                        doloribus rem, deserunt, ducimus voluptates qui ipsum ipsa veniam doloremque placeat porro 
+                        laudantium ipsam repellendus facilis labore aliquid?
+                    </p>
+                </div>
+            </article>
+            <article>
+                <div class="bg-color">
+                    <h3>Institut Nicolas Barre</h3>
+                    <p>Oct 2018</p>
+                </div>
+                <div>
+                    <h3>Atelier découverte du numérique</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odio nemo praesentium, doloribus rem, 
+                        deserunt, ducimus voluptates qui ipsum ipsa veniam doloremque placeat porro laudantium 
+                        ipsam repellendus facilis labore aliquid?
+                    </p>
+                </div>
+            </article>
+            <article>
+                <div class="bg-color">
+                    <h3>Instep</h3>
+                    <p>Juil 2016 - Nov 2016</p>
+                </div>
+                <div>
+                    <h3>Titre Pro Niv BEP/CAP </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odio nemo praesentium, doloribus rem, 
+                        deserunt, ducimus voluptates qui ipsum ipsa veniam doloremque placeat porro laudantium 
+                        ipsam repellendus facilis labore aliquid?
+                    </p>
+                </div>
+            </article>
+            
+        </section>
+        
+        <!-- Contact -->
+        <section id="contact" class="margin-0 padding-0">
+            <!-- Map GMap -->
+            <iframe class="width-100 height-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80985.0430180649!2d2.977120424451235!3d50.63115539740852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d579b3256e11%3A0x40af13e81646360!2sLille!5e0!3m2!1sfr!2sfr!4v1578418243870!5m2!1sfr!2sfr" frameborder="0"></iframe>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p lang="en"> © all right reserved - Angelique - 2020</p>
+     </footer>
+</body>
+</html>
