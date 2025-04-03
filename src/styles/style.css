@@ -95,16 +95,20 @@ header .opacity-container .btn-group .btn-green {
     background-color: #378C3F;
     color: white;
 }
-header .opacity-container #social {
+/* Main Social */
+main #social {
     background-color: transparent;
-}
-header .opacity-container #social ul {
+    display: flex;
+    justify-content: center;
     position: relative;
-    top: 2em;
+    margin: -7rem auto 5rem;
+}
+ #social ul {
+    position: relative;
     display: flex;
     justify-content: center;
 }
-header .opacity-container #social ul li {
+ #social ul li {
     margin: auto 0.5em;
     padding: 1em 0.9em;
     /* background-color: grey; */
@@ -113,10 +117,10 @@ header .opacity-container #social ul li {
     
     background-color: #378C3F;
 }
-header .opacity-container #social ul li a {
+ #social ul li a {
     color: white;
 }
-header .opacity-container #social ul li a i {
+ #social ul li a i {
     font-size: 1.5em;
 }
 
