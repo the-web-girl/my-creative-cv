@@ -40,6 +40,15 @@ header .opacity {
 header .opacity-container {
     position: relative; 
 }
+header .opacity-container h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 4rem auto 1rem;
+}
+header .opacity-container h2 {
+    text-transform: uppercase;
+    margin: 1rem auto 3rem;
+}
 header .opacity-container #menu {
     display: flex;
     justify-content: space-between;
@@ -85,6 +94,7 @@ header .opacity-container p {
 }
 header .opacity-container .btn-group {
     padding: 1em;
+    margin: 2rem auto 0;
 }
 header .opacity-container .btn-group .btn {
     padding: 0.5em 3em;
@@ -115,7 +125,7 @@ main #social {
     border-radius: 50%;
     list-style-type: none;
     
-    background-color: #378C3F;
+    background-color: #888888;
 }
  #social ul li a {
     color: white;
