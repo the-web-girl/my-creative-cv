@@ -40,6 +40,15 @@ header .opacity {
 header .opacity-container {
     position: relative; 
 }
+header .opacity-container h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 4rem auto 1rem;
+}
+header .opacity-container h2 {
+    text-transform: uppercase;
+    margin: 1rem auto 3rem;
+}
 header .opacity-container #menu {
     display: flex;
     justify-content: space-between;
@@ -85,6 +94,7 @@ header .opacity-container p {
 }
 header .opacity-container .btn-group {
     padding: 1em;
+    margin: 2rem auto 0;
 }
 header .opacity-container .btn-group .btn {
     padding: 0.5em 3em;
@@ -115,7 +125,7 @@ main #social {
     border-radius: 50%;
     list-style-type: none;
     
-    background-color: #378C3F;
+    background-color: #888888;
 }
  #social ul li a {
     color: white;
@@ -289,23 +299,16 @@ footer p {
 
 
 @media screen and (max-width: 960px) {
-    header .opacity-container #menu .logo {
-        justify-content: center;
-    }
-    header .opacity-container div  .image-sm {
-        width: 8.5em;
-    }
-    header .opacity-container .btn-group {
-        display: flex;
-        flex-direction: column;
-    }
-    header .opacity-container .btn-group .btn {
-        margin: 5px auto;
+    header {
+        height: 100vh;
     }
     header .opacity-container #menu {
         flex-direction: column;
         padding: 0;
         margin-bottom: 0.2em;
+    }
+    header .opacity-container #menu .logo {
+        justify-content: center;
     }
     header .opacity-container #menu .links {
         flex-direction: column;
@@ -313,6 +316,30 @@ footer p {
     header .opacity-container #menu .links li {
         margin: 0.25em auto;
     }
+    header .opacity-container .content-img {
+        margin: .5rem auto;
+    }
+    header .opacity-container .content-img .image-sm {
+        width: 7.5em;
+    }
+    header .opacity-container h1 {
+        margin: 1rem auto .5rem;
+        font-size: 28px;
+    }
+    header .opacity-container h2 {
+        margin: .5rem auto 0;
+        font-size: 20px;
+    }
+    header .opacity-container .btn-group {
+        display: flex;
+        flex-direction: column;
+        margin: 10% auto 0;
+    }
+    header .opacity-container .btn-group .btn {
+        margin: 5px auto;
+    }
+   
+
     main #about,
     main #skills, 
     main #portfolio,
